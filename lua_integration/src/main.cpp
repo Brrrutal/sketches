@@ -1,10 +1,11 @@
 #include <iostream>
 
-#include <lua/lua.hpp>
+#include "LuaScript.h"
 
 int main()
 {
-    std::cout << "Hello From C++ Program" << std::endl;
+    LuaScript lua;
+    lua.Run("lua/test.lua");
     char key;
     std::cin >> key;
     return 0;
