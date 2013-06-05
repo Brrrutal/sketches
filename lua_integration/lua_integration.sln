@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua_integration", "lua_integration.vcxproj", "{AFCC6E4E-5038-4828-8107-C69BF051D193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFCC6E4E-5038-4828-8107-C69BF051D193}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFCC6E4E-5038-4828-8107-C69BF051D193}.Debug|Win32.Build.0 = Debug|Win32
+		{AFCC6E4E-5038-4828-8107-C69BF051D193}.Release|Win32.ActiveCfg = Release|Win32
+		{AFCC6E4E-5038-4828-8107-C69BF051D193}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
