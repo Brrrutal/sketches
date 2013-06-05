@@ -4,3 +4,5 @@ HotCocoa.app
 *.sdf
 *.opensdf
 */ipch
+*/build
+*/target
