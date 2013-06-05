@@ -1,1 +1,6 @@
 HotCocoa.app
+*.vcxproj.user
+*_ReSharper.*
+*.sdf
+*.opensdf
+*/ipch
