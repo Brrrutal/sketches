@@ -3,6 +3,7 @@ HotCocoa.app
 *_ReSharper.*
 *.sdf
 *.opensdf
+*.suo
 */ipch
 */build
 */target
