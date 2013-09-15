@@ -8,3 +8,4 @@ HotCocoa.app
 */build
 */target
 *.swp
+*.exe
