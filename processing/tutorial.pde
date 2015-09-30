@@ -1,23 +1,35 @@
-void setup() 
-{
-    size(600, 300);
-    background(0, 0, 0);
-}
+void setup() {
+    size(600, 600);
+    noStroke();
+    background(100);
 
-int time = 0;
-                                          
-void draw()
-{
-    background(200, time, time);
-    stroke(0);
-    fill(255, 255, 0);
-    int x = sin(time * 0.1) * time * 0.2;
-    ellipse(150 - time * 0.1, 150 + x, 75, 75 + sin(time * 0.1) * 10);
-    ellipse(225 + time * 0.1, 150 + x, 75, 75 + sin(time * 0.1) * 10);
-    fill(0);
-    ellipse(150 - time * 0.1, 150 + x * 0.8, 30, 30);
-    ellipse(225 + time * 0.1, 150 + x * 0.8, 30, 30);
+    // Ukraine.
     fill(0, 0, 255);
+    rect(10, 10, 90, 30);
+    fill(255, 255, 0);
+    rect(10, 10 + 30, 90, 30);
 
-    time = time + 1;
+    // Japan.
+    fill(255, 255, 255);
+    rect(10 + 90 + 10, 10, 90, 60);
+    fill(255, 0, 0);
+    ellipse(10 + 90 + 10 + 90 / 2, 10 + 30, 35, 35);
+
+    // Germany.
+    fill(0, 0, 0);
+    rect(10 + (90 + 10) * 2, 10, 90, 20);
+    fill(255, 0, 0);
+    rect(10 + (90 + 10) * 2, 10 + 20, 90, 20);
+    fill(255, 255, 0);
+    rect(10 + (90 + 10) * 2, 10 + 40, 90, 20);
+
+    // Norway.
+    fill(255, 0, 0);
+    rect(10 + (90 + 10) * 3, 10, 90, 60);
+    fill(255, 255, 255);
+    rect(10 + (90 + 10) * 3, 10 + 22, 90, 16);
+    rect(10 + (90 + 10) * 3 + 22, 10, 16, 60);
+    fill(0, 0, 120);
+    rect(10 + (90 + 10) * 3, 10 + 22 + 3, 90, 10);
+    rect(10 + (90 + 10) * 3 + 22 + 3, 10, 10, 60);
 }
